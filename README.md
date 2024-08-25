@@ -78,6 +78,15 @@ Select option 2 from the main menu to perform the check and display results.
 - **Cleanup Operations**: The cleanup feature is experimental and can potentially delete important resources. Make sure to review the resources to be deleted before confirming any deletion.
 - **Protected Deployments**: Ensure the patterns for protected deployments are correctly configured to avoid accidental deletion of critical services.
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/f0475014-640e-4de1-94ec-691ced56edb6)
+![image](https://github.com/user-attachments/assets/ea3bcb2e-17ef-4a01-be93-1a75601c9249)
+![image](https://github.com/user-attachments/assets/19462a55-ca1f-4935-9e82-07e41e8600e4)
+![image](https://github.com/user-attachments/assets/4767619d-ea1d-4f37-a7d7-1a43c3f64bd8)
+![image](https://github.com/user-attachments/assets/51d4c2e8-c8c1-43b3-8942-e890e2d7abf8)
+![image](https://github.com/user-attachments/assets/c374cba8-df1b-4ee0-ac60-5914b9e1d28f)
+
+
 ## Contributing
 
 Feel free to contribute by submitting issues or pull requests. For any questions or feedback, please open an issue on this repository.
