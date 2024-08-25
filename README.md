@@ -61,7 +61,7 @@
 
 ## Configuration
 
-    **GraphQL Endpoint**: Update the **GRAPHQL_ENDPOINT** variable in **laconicman.py** with the URL of your GraphQL endpoint.
+- **GraphQL Endpoint**: Update the **GRAPHQL_ENDPOINT** variable in **laconicman.py** with the URL of your GraphQL endpoint.
 
 ## Example
 
