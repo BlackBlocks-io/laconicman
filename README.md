@@ -50,14 +50,14 @@
         - Option 2: Deletes all Ingresses where only the Application Deployment Record is missing.
     - Exit: Exits the interactive shell.
 
-3. **Protected Deployments**
+3. ~~**Protected Deployments**~~
 
-    The following patterns are protected from deletion:
-    - **webapp-deployer-api.pwa.***
-    - **container-registry.pwa.***
-    - **webapp-deployer-ui.pwa.***
+    ~~The following patterns are protected from deletion:~~
+    - ~~**webapp-deployer-api.pwa.***~~
+    - ~~**container-registry.pwa.***~~
+    - ~~**webapp-deployer-ui.pwa.***~~
 
-    Deployments matching these patterns will not be deleted, even when performing cleanup operations.
+    ~~Deployments matching these patterns will not be deleted, even when performing cleanup operations.~~
 
 ## Configuration
 
@@ -76,7 +76,7 @@ Select option 2 from the main menu to perform the check and display results.
 ## Caution
 
 - **Cleanup Operations**: The cleanup feature is experimental and can potentially delete important resources. Make sure to review the resources to be deleted before confirming any deletion.
-- **Protected Deployments**: Ensure the patterns for protected deployments are correctly configured to avoid accidental deletion of critical services.
+- ~~**Protected Deployments**: Ensure the patterns for protected deployments are correctly configured to avoid accidental deletion of critical services.~~
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/f0475014-640e-4de1-94ec-691ced56edb6)
