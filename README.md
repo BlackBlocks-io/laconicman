@@ -1,6 +1,6 @@
 # Laconicman
 
-**Laconicman** is a command-line utility designed to interact with Kubernetes Ingress resources and manage related Laconic deployments. It helps you identify and clean up resources associated with Ingresses, query GraphQL endpoints for Laconic registry records, and ensure that critical deployments are protected from accidental deletion.
+**Laconicman** is a command-line utility designed to interact with Kubernetes Ingress resources and manage related Laconic deployments. It helps you identify and clean up resources associated with Ingresses, query GraphQL endpoints for Laconic registry records, ~~and ensure that critical deployments are protected from accidental deletion~~.
 
 ## Features
 
@@ -46,8 +46,8 @@
     - Show all where both DNS and DeploymentRecord are missing: Filters and displays Ingresses missing both DNS and Application Deployment Record.
     - Show related Deployments, Pods, Services: Lists related Kubernetes resources for all Ingresses.
     - Cleanup (!!! Dangerous and Experimental !!!): Deletes Deployments related to Ingresses based on specific criteria. Use with caution!
-        -Option 1: Deletes all Ingresses where both DNS and Application Deployment Record are missing.
-        - Option 2: Deletes all Ingresses where only the Application Deployment Record is missing.
+      - Option 1: Deletes all Ingresses where both DNS and Application Deployment Record are missing.
+      - Option 2: Deletes all Ingresses where only the Application Deployment Record is missing.
     - Exit: Exits the interactive shell.
 
 3. ~~**Protected Deployments**~~
